@@ -8,7 +8,7 @@ export const landingPageNavigationItems: NavigationItem[] = [
   { name: 'Features', to: '#features' },
   { name: 'Pricing', to: routes.PricingPageRoute.to },
   { name: 'Documentation', to: DocsUrl },
-  { name: 'Blog', to: BlogUrl },
+  { name: 'FAQ', to: '#faq' },
 ];
 export const features = [
   {
@@ -63,9 +63,9 @@ export const testimonials = [
 export const faqs = [
   {
     id: 1,
-    question: 'Whats the meaning of life?',
-    answer: '42.',
-    href: 'https://en.wikipedia.org/wiki/42_(number)',
+    question: 'Why email should be simple?',
+    answer: 'Simplify your email with this service by using easy-to-remember aliases that protect your privacy, help manage multiple communication streams, and eliminate spam—all without the hassle of multiple accounts or passwords.',
+    href: '',
   },
 ];
 export const footerNavigation = {
