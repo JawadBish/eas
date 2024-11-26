@@ -12,27 +12,27 @@ export const landingPageNavigationItems: NavigationItem[] = [
 ];
 export const features = [
   {
-    name: 'Cool Feature #1',
-    description: 'Describe your cool feature here.',
-    icon: '🤝',
+    name: 'Personalized Short Aliases',
+    description: ' create easy-to-remember and shareable short email',
+    icon: '😃',
     href: DocsUrl,
   },
   {
-    name: 'Cool Feature #2',
-    description: 'Describe your cool feature here.',
+    name: 'Email Control',
+    description: 'block spams or irrelevant emails.',
+    icon: '🕹️',
+    href: DocsUrl,
+  },
+  {
+    name: 'Multi-Alias Management',
+    description: 'create multiple aliases for different purposes',
+    icon: '💡',
+    href: DocsUrl,
+  },
+  {
+    name: 'Security',
+    description: 'Email aliases simply forward to their existing inbox securely.',
     icon: '🔐',
-    href: DocsUrl,
-  },
-  {
-    name: 'Cool Feature #3',
-    description: 'Describe your cool feature here.',
-    icon: '🥞',
-    href: DocsUrl,
-  },
-  {
-    name: 'Cool Feature #4',
-    description: 'Describe your cool feature here.',
-    icon: '💸',
     href: DocsUrl,
   },
 ];
